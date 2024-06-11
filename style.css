@@ -427,3 +427,76 @@ font-family: 'Lobster', cursive;
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  #card, #card-front, #card-inside {
+    width: 100%;
+    height: auto;
+  }
+
+  #card {
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .wrap {
+    padding: 1em;
+  }
+
+  #card h1 {
+    font-size: 2em;
+  }
+
+  #card-front button, #close {
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+
+  .cake_and_velas {
+    bottom: 10%;
+  }
+
+  #cake {
+    margin-top: -5em;
+  }
+
+  .velas {
+    top: 150px;
+  }
+
+  .polaroid {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  #card h1 {
+    font-size: 1.5em;
+  }
+
+  .text h1 {
+    font-size: 1.2em;
+  }
+
+  .polaroid {
+    width: 150px;
+    height: 250px;
+  }
+
+  .wrap {
+    padding: 0.5em;
+  }
+
+  .cake_and_velas {
+    bottom: 5%;
+  }
+
+  .velas {
+    top: 120px;
+  }
+
+  #cake {
+    margin-top: -3em;
+  }
+}
